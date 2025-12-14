@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "basic ass ad blocker",
+  "version": "6.7",
+  "description": "as in the name, a very very basic ass ad blocker i made just for some fun, ts is ass dont use it for normal use, use ghostrey or smth",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_title": "basic ass ad blocker is maybe working figre it out"
+  }
+}
